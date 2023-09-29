@@ -1,3 +1,11 @@
+.section-header {
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
 .header {
     height: 110px;
     width: 90%;
@@ -5,28 +13,62 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    background-color: greenyellow;
 }
 
 .logo-link {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: black;
     margin: 0;
 }
 
+
 .logo-icon {
-    height: 68px;
-    width: 68px;
+    height: 39px;
+    width: 39px;
 }
 
 .logo-text {
     margin: 0 0 0 15px;
-    font-size: 56px;
-    letter-spacing: 0.42px;
-    font-weight: 300;
+    font-size: 17px;;
+    letter-spacing: 0.6px;
+    font-weight: 400;
+    line-height: 16.8px;
+    font-family: "proxima_novabold";
+    color: white;
+}
 
+.logo-link:hover
+
+.logo-text:hover, .logo-link:hover{
+    color: deepskyblue;
+}
+
+
+.logo-text p {
+    margin: 0;
+}
+
+.logo-text p:nth-child(2) {
+    font-size: 13px;
+    font-family: "proxima_novalight";
+}
+
+.drop-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-burger {
+    font-size: 18px;
+    margin-right: 18px;
+    display: none;
+}
+
+.text-burger a {
+    margin: 0;
+    font-size: 18px;
 }
 
 
@@ -37,32 +79,31 @@
 /* Drop menu */
 
 .menu-btn {
-    width: 60px;
-    height: 45px;
+    width: 47px;
+    height: 25px;
     position: relative;
     z-index: 0;
     overflow: hidden;
-    background-color: #5094f2;
-    border-radius: 5px;
 }
 
 .menu-btn span {
-    width: 37px;
-    height: 6px;
+    width: 47px;
+    height: 3px;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background-color: white;
     transition: all 0.5s;
+    border-radius: 10px;
 }
 
 .menu-btn span:nth-of-type(2) {
-    top: calc(50% - 10px);
+    top: calc(50% - 8px);
+    width: 30px;
 }
 
 .menu-btn span:nth-of-type(3) {
-    top: calc(50% + 10px);
+    top: calc(50% + 8px);
+    width: 20px;
 }
 
 .menu {
@@ -72,7 +113,7 @@
     width: 100%;
     height: 100%;
     padding: 15px;
-    background: #5094f2;
+    background: #e12457;
     font-size: 50px;
     transform: translateX(-100%);
     transition: transform 0.5s;
@@ -86,6 +127,12 @@
     list-style-type: none;
     color: white;
     margin: 30px 0;
+    display: flex;
+    font-family: "proxima_novabold";
+}
+
+.menu a {
+    margin: 0;
 }
 
 .nav-link {
@@ -93,7 +140,8 @@
 }
 
 .nav-link:hover {
-    color: greenyellow;
+    color: #ffcfdf;
+    box-shadow: 0 0 27px rgba(255, 255, 255, 0.48);
 }
 /* Drop menu */
 
@@ -101,17 +149,10 @@
 
 
 
-
-
-/*.nav-desk {
-    display: none;
-}*/
-
+/*
 @media screen and (min-width:750px) {
-
-
-    .header {
-        width: 80%;
+    .text-burger {
+        display: block;
     }
 
     .nav-desk {
