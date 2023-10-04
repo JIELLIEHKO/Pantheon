@@ -3,7 +3,7 @@
     height: 600px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
+    background-image: url(/img/hero_320.jpg);
 }
 
 .header {
@@ -22,7 +22,6 @@
     margin: 0;
 }
 
-
 .logo-icon {
     height: 39px;
     width: 39px;
@@ -34,16 +33,13 @@
     letter-spacing: 0.6px;
     font-weight: 400;
     line-height: 16.8px;
-    font-family: "proxima_novabold";
+    font-family: "proxima_novabold", sans-serif;
     color: white;
 }
 
-.logo-link:hover
-
-.logo-text:hover, .logo-link:hover{
+.logo-text:hover, .logo-link:hover, .text-burger a:hover {
     color: deepskyblue;
 }
-
 
 .logo-text p {
     margin: 0;
@@ -51,7 +47,7 @@
 
 .logo-text p:nth-child(2) {
     font-size: 13px;
-    font-family: "proxima_novalight";
+    font-family: "proxima_novalight", sans-serif;
 }
 
 .drop-menu {
@@ -69,10 +65,8 @@
 .text-burger a {
     margin: 0;
     font-size: 18px;
+    color: white;
 }
-
-
-
 
 
 
@@ -128,7 +122,7 @@
     color: white;
     margin: 30px 0;
     display: flex;
-    font-family: "proxima_novabold";
+    font-family: "proxima_novabold", sans-serif;
 }
 
 .menu a {
@@ -148,31 +142,42 @@
 
 
 
-
-/*
 @media screen and (min-width:750px) {
     .text-burger {
         display: block;
     }
 
-    .nav-desk {
-        display: inline-block;
-        margin-top: 20px;
+    .section-header {
+        height: 940px;
+        background-image: url(/img/hero_720.jpg);
     }
 
-    .nav-desk a {
-        font-size: 20px;
+    .logo-text {
+        font-size: 21px;
+        letter-spacing: 0.6px;
         font-weight: 400;
-        color: #6c6c6c;
-        margin-right: 40px;
+        line-height: 21px;
     }
 
-    .nav-desk a:last-child {
-        margin-right: 0;
+    .logo-text p:nth-child(2) {
+        font-size: 16px;
     }
 
-    .nav-desk a:hover {
-        text-decoration: underline #5094f2 3px;
+}
+
+
+
+@media screen and (min-width:1200px) {
+    .header {
+       width: 71%;
+   }
+
+    .text-burger {
+        display: block;
     }
 
+    .section-header {
+        height: 950px;
+        background-image: url(/img/hero.jpg);
+    }
 }

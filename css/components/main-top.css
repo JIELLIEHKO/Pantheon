@@ -1,8 +1,306 @@
-.main-content {
+.main {
     width: 100%;
     margin: 0 auto;
 }
 
+.main-row-property {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff5f8;
+}
+
+.col-main-property {
+    margin: 0 auto;
+}
+
+
+.col-main {
+    padding: 30px 5px;
+    border-bottom: 1px solid #ffcfdf;
+}
+
+.col-main h4 {
+    font-size: 36px;
+    line-height: 24px;
+    color: #e12457;
+    font-family: proxima_novablack, sans-serif;
+    margin: 15px;
+}
+
+.col-main p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #4d4d4d;
+    font-family: proxima_novalight, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:575px) {
+    .col-main {
+        border-right: 1px solid #ffcfdf;
+    }
+
+    .col-main:nth-child(even) {
+        border-right: none;
+    }
+}
+
+@media screen and (min-width:750px) {
+    .col-main {
+        border-right: 1px solid #ffcfdf;
+    }
+
+    .col-main:nth-child(even) {
+        border-right: 1px solid #ffcfdf;
+    }
+
+    .col-main:nth-child(3n+0) {
+        border-right: none;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .col-main-property {
+        width: 90%;
+    }
+
+    .col-main {
+        border-right: 1px solid #ffcfdf;
+        border-bottom: none;
+        padding: 50px 40px;
+    }
+
+    .col-main:nth-child(3n+0) {
+        border-right: 1px solid #ffcfdf;
+    }
+
+    .col-main:last-child {
+        border-right: none;
+    }
+
+}
+
+
+
+
+/* Remember */
+
+.property-remember, .container-idea {
+    margin: 50px 0;
+    padding: 0 15px;
+    text-align: start;
+}
+
+.container-idea {
+    margin: 0 auto;
+}
+
+.content-idea span {
+    color: #e12457;
+}
+
+.main-top h2 {
+    margin: 0 0 0 0;
+    color: #e12457;
+    font-size: 60px;
+    font-family: proxima_novabold, sans-serif;
+    font-weight: 700;
+}
+
+.main-top h3 {
+    margin: 40px 0 30px 0;
+    color: #000000;
+    font-size: 26px;
+    line-height: 24px;
+    font-family: proxima_novabold, sans-serif;
+    font-weight: 700;
+}
+
+.main-top p {  /* !!! */
+    margin: 20px 0 0 0;
+    color: #4d4d4d;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: proxima_novabold, sans-serif;
+}
+
+
+
+
+
+
+/* Img */
+/*
+/*
+.content-idea {
+    width: 100%;
+
+
+}
+
+.content-idea div {
+    width: 65%;
+}
+
+.d-flex figure {
+    width: 30%;
+}
+
+figure {
+    display: flex;
+    align-items: end;
+}
+
+#mask {
+    width: 80%;
+}
+
+img {
+    max-height: 325px;
+}
+
+@media screen and (min-width:750px) { 575
+
+}*/
+
+
+
+.figure-idea {
+    box-shadow: rgb(255, 255, 255) 40px -40px 0 -10px, rgb(	225	36	87) 40px -40px;
+    width: 70%;
+    max-width: 250px;
+    margin: 50px 0 auto;
+}
+
+.figure-idea .idea-img {
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.top-idea {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-idea figure {
+    align-self: center;
+}
+
+.figure-idea-sm {
+    display: block;
+}
+
+.figure-idea-md {
+    display: none;
+}
+
+.figure-idea-lg {
+    display: none;
+}
+
+@media screen and (min-width: 750px) {
+    .figure-idea-sm {
+        display: none;
+    }
+
+    .figure-idea-md {
+        display: block;
+    }
+
+    .figure-idea-lg {
+        display: none;
+    }
+
+    .figure-idea {
+        width: 100%;
+        max-width: 100%;
+    }
+
+   .figure-idea .idea-img {
+        max-height: 300px;
+    }
+
+    .container-idea-md2 {
+        margin: 0 50px 0 40px;
+    }
+
+    .container-idea-md {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    .top-idea {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .figure-idea-sm {
+        display: none;
+    }
+
+    .figure-idea-md {
+        display: none;
+    }
+
+    .figure-idea-lg {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .figure-idea {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .figure-idea .idea-img {
+        height: auto;
+        width: 100%;
+    }
+
+
+    .content-idea {
+        display: flex;
+        align-items: end;
+    }
+
+    .ct-idea {
+        margin-right: 50px;
+    }
+
+    .container-remember, .container-idea {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .col-1 {
     display: flex;
     align-items: center;
@@ -38,7 +336,7 @@ hr {
 .col-br {
     display: none;
 }
-
+/*
 @media screen and (min-width:1200px) {
 
     .col-br {

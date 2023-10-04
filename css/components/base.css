@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  max-width: 1000px;
+  /*max-width: 1000px;*/
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 * + h1, * + h2, * + h3,* + h4,* + h5,* + h6 {
-  margin:0.67em 0 0 0;
+  margin:0.4em 0 0.4em 0;
 }
 
 p, ul, ol, figure {
