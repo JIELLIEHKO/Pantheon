@@ -78,9 +78,6 @@
 }
 
 
-
-
-
 @media screen and (min-width:750px) {
   .title-hero {
     margin-bottom: 120px;
@@ -118,10 +115,6 @@
   .container-icon-hero {
     margin-top: 30px;
   }
-
-
-
-
 
   .video-hero {
     position: relative;
@@ -163,14 +156,6 @@
     opacity: 0.4;
   }
 }
-
-
-
-
-
-
-
-
 
 @media screen and (min-width:1200px) {
   .title-hero {

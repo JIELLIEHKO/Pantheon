@@ -1,0 +1,127 @@
+.container-rock {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/img/stars_bg.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.property-rock {
+    width: 90%;
+}
+
+.video-iframe-colony {
+    max-height: 600px;
+    width: 80%;
+}
+
+.drop-rock-sm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.drop-rock-sm .accordion {
+    font-family: proxima_novabold, sans-serif;
+}
+
+.drop-rock-sm div p {
+    color: white;
+    font-family: proxima_novalight, sans-serif;
+}
+
+.drop-rock-md div p {
+    color: white;
+    font-family: proxima_novalight, sans-serif;
+}
+
+.container-rock h3 {
+    color: #00b3ff;
+    font-family: proxima_novabold, sans-serif;
+}
+
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #e12457;
+}
+
+.accordion:after {
+    content: '\003E';
+    color: #ffffff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\02C4";
+}
+
+.panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.drop-rock-md {
+    display: none;
+}
+
+.video-iframe-colony {
+    width: 100%;
+    height: 200px;
+    opacity: 0.5;
+}
+
+
+
+@media screen and (min-width: 750px) {
+    .drop-rock-sm {
+        display: none;
+    }
+
+    .drop-rock-md {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .drop-rock-md div:last-child {
+        margin-bottom: 50px;
+    }
+
+    .property-rock {
+        width: 75%;
+    }
+
+    .video-iframe-colony {
+       width: 100%;
+       height: 400px;
+       opacity: 0.5;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .video-iframe-colony {
+        width: 100%;
+        height: 600px;
+        opacity: 0.5;
+    }
+
+ }
