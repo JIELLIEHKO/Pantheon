@@ -330,9 +330,6 @@
 }
 
 
-
-
-
 @media screen and (min-width: 750px) {
     .container-ready {
         width: 95%;
@@ -343,7 +340,7 @@
 
     .property-ready {
         width: 100%;
-        margin: 250px 0 0 0;
+        margin: 200px 0 0 0;
         align-items: normal;
     }
 
