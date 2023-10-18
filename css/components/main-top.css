@@ -259,7 +259,7 @@
     background-size: cover;
     background-position: 5% 50%;
     background-repeat: no-repeat;
-    background-image: url(/img/rocket_bg.jpg);
+    background-image: url("../../img/rocket_bg.jpg");
     position: relative;
     margin-top: 250px;
     color: white;

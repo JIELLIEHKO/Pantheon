@@ -3,7 +3,7 @@
     height: 600px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-image: url(/img/hero_320.jpg);
+    background-image: url("../../img/hero_320.jpg");
 }
 
 .header {
@@ -76,7 +76,6 @@
     width: 47px;
     height: 25px;
     position: relative;
-    z-index: 0;
     overflow: hidden;
 }
 
@@ -111,9 +110,10 @@
     font-size: 50px;
     transform: translateX(-100%);
     transition: transform 0.5s;
+    z-index: 8;
 }
 
-.menu.active {
+.menu.active-menu {
     transform: translateX(0);
 }
 
@@ -149,7 +149,7 @@
 
     .section-header {
         height: 940px;
-        background-image: url(/img/hero_720.jpg);
+        background-image: url("../../img/hero_720.jpg");
     }
 
     .logo-text {
@@ -178,6 +178,6 @@
 
     .section-header {
         height: 950px;
-        background-image: url(/img/hero.jpg);
+        background-image: url("../../img/hero.jpg");
     }
 }

@@ -3,7 +3,7 @@
     height: 1300px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/img/footer4.jpg);
+    background-image: url("../../img/footer4.jpg");
 }
 
 .footer {
@@ -42,7 +42,7 @@
     height: auto;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-image: url(/img/build.jpg);
+    background-image: url("../../img/build.jpg");
 }
 
 .footer-form form {
